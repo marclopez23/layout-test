@@ -1,0 +1,41 @@
+:root {
+  font-size: 16px;
+}
+html,
+main,
+body,
+p {
+  margin: 0;
+}
+
+section,
+div,
+article {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.contenido {
+  .contenido__top {
+    background-color: #eaeaea;
+    min-height: 85vh;
+    padding: 2rem 1rem;
+    padding-bottom: 0;
+  }
+  .contenido__bottom {
+    background-color: #fabada;
+    padding: 2rem 1rem;
+    min-height: 15vh;
+    .button {
+      display: block;
+      text-align: center;
+      padding: 1rem;
+      background-color: #eaeaea;
+      text-decoration: none;
+      border-radius: 1.5rem;
+      &:visited {
+        color: unset;
+      }
+    }
+  }
+}
